@@ -8,7 +8,6 @@
   --border: rgba(114, 80, 54, 0.16);
   --accent: #8e4a23;
   --accent-2: #b66a2d;
-  --accent-3: #d8a04e;
   --shadow: 0 24px 60px rgba(74, 38, 14, 0.12);
   --radius-xl: 30px;
   --radius-lg: 22px;
@@ -27,7 +26,7 @@ html {
 body {
   margin: 0;
   color: var(--text);
-  font-family: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-manrope), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background:
     radial-gradient(circle at top left, rgba(214, 154, 81, 0.2), transparent 28%),
     radial-gradient(circle at top right, rgba(142, 74, 35, 0.16), transparent 26%),
@@ -183,7 +182,7 @@ textarea {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: var(--font-fraunces), Georgia, serif;
   margin: 0;
   line-height: 1.02;
 }
