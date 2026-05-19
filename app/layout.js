@@ -21,7 +21,10 @@ export const metadata = {
     description:
       "Batik tulis, pengalaman belajar membatik, dan wisata budaya di Wukirsari, Yogyakarta.",
     type: "website"
-  },
+  }
+};
+
+export const viewport = {
   themeColor: "#7a3f1d"
 };
 

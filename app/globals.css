@@ -491,7 +491,7 @@ h3 {
   overflow: hidden;
   padding: 22px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   color: #fff9ef;
 }
 
